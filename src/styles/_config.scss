@@ -1,0 +1,14 @@
+$primary: #f8f9fb;
+$secondary: #b4b4b4;
+$yellow: #dba606;
+$green: #06842c;
+
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
+@mixin flexGeneric($flexDirection, $justifyContent, $alignItems) {
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
